@@ -2,6 +2,11 @@
 
 Sistema de eventos encomendado pela Morena
 
+[![Build Status](https://travis-ci.org/marceloandriolli/eventex.svg?branch=master)](https://travis-ci.org/marceloandriolli/eventex)
+
+[![Code Health](https://landscape.io/github/marceloandriolli/eventex/master/landscape.svg?style=flat)](https://landscape.io/github/marceloandriolli/eventex/master)
+
+
 ## Como desenvolver?
 
 1. Clone o repositóti
