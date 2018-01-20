@@ -51,3 +51,8 @@ class HomeTest(TestCase):
         for link in contents:
             with self.subTest():
                 self.assertContains(self.reponse, link)
+    
+    def test_talks_link(self):
+        expected = 'href="{}"'.format(r('talk_list'))
+        self.assertContains(self.reponse, expected)
+
