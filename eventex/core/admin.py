@@ -1,5 +1,5 @@
 from django.contrib import admin
-from eventex.core.models import Speaker, Talk
+from eventex.core.models import Speaker, Talk, Course
 from eventex.core.models import Contact
 
 
@@ -38,3 +38,4 @@ class SpeakerModelAdmin(admin.ModelAdmin):
 
 admin.site.register(Speaker, SpeakerModelAdmin)
 admin.site.register(Talk)
+admin.site.register(Course)
