@@ -37,6 +37,7 @@ python manage.py test
 heroku create minhainstancia
 heroku config:push
 heroku config:set SECRET_KEY=`python contrib/secret_gen.py`
+heroku config:set ALLOWED_HOSTS=.herokuapp.com
 heroku config:set DEBUG=False
 # configura o email
 git push heroku master --force
